@@ -1,0 +1,36 @@
+p {
+    font-family: roboto,arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 65px;
+    background-color: white;
+}
+.sidebar-link{
+    height: 60px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+
+    
+
+}
+.sidebar-link:hover{
+    background-color: rgb(204, 204, 204);
+    cursor: pointer;
+}
+.sidebar-link img{
+    height: 24px;
+}
+.sidebar-link div{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 7px;
+
+}
